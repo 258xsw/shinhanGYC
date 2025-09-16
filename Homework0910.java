@@ -1,4 +1,4 @@
-package ch2;
+//package ch2;
 
 public class Homework0910 {
 	public static void main(String[] args) {
@@ -68,7 +68,7 @@ public class Homework0910 {
 		
 		
 		boolean result1 = (15 > 20);
-		boolean result2 = (10 == 10);
+		boolean result2 = (10 == 1);
 		boolean result3 = (7 <= 3);
 		System.out.println(result1);
 		System.out.println(result2);
@@ -86,7 +86,7 @@ public class Homework0910 {
 		
 		boolean logic1 = ((10 > 5) && (2 > 1));
 		boolean logic2 = ((3 == 7) || (6 < 2));
-		boolean logic3 = (8 != 8);
+		boolean logic3 = (8 != 81);
 		System.out.println(logic1);
 		System.out.println(logic2);
 		System.out.println(logic3);

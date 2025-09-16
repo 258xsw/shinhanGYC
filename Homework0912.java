@@ -1,4 +1,4 @@
-package ch2;
+//package ch2;
 
 import java.lang.reflect.Field;
 import java.util.Random;
@@ -92,6 +92,7 @@ public class Homework0912 {
 		}
 		System.out.print("정답은 " + num + "입니다!");
 		
+		sc.close();
 	}
 
 	

@@ -1,4 +1,4 @@
-package ch1;
+//package ch1;
 
 import java.util.Scanner;
 
@@ -53,6 +53,8 @@ public class Homework0911 {
 			System.out.println("짝수");
 		else
 			System.out.println("홀수");
+
+		sc.close();
 	}
 
 }
