@@ -21,8 +21,12 @@ public class Deposit {
 				case 1:
 					System.out.println("입금액을 입력하세요.");
 					int depositAmount = scanner.nextInt();
-					System.out.println(depositAmount + "원 입금되었습니다.");
-					balance += depositAmount;
+					if (depositAmount > 0) {
+						System.out.println(depositAmount + "원 입금되었습니다.");
+						balance += depositAmount;
+					} else {
+						System.out.println("입금할 수 없습니다.");
+					}
 					break;
 
 				case 2:

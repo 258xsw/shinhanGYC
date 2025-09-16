@@ -1,6 +1,5 @@
 //package ch2;
 
-import java.lang.reflect.Field;
 import java.util.Random;
 import java.util.Scanner;
 
