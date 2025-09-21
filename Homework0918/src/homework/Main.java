@@ -27,6 +27,7 @@ public class Main {
 		bicycle.move();
 
 		// 과제4
+		// 이 부분이 어렵네요.......
 		Scanner sc = new Scanner(System.in);
 		Person[] people = new Person[5];
 		String name;
