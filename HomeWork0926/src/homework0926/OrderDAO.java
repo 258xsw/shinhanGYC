@@ -9,6 +9,12 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+ * try/catch에서 close안해도 괜찮은건가요?!
+ * 
+ */
+
 public class OrderDAO {
 
 	private String filename;
