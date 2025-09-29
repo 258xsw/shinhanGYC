@@ -10,6 +10,13 @@ public class OrderService {
 		this.dao = dao;
 	}
 
+	
+	/*
+	
+	getId() 부분이 잘 이해가 가지 않는데 담에 눈높이 설명 좀 부탁드리겠습니다...^.^
+	
+	*/
+	
 	private int getId() {
 		int max = 0;
 		for(OrderDTO dto : dao.findAll()) {
